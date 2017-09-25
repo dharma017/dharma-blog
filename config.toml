@@ -1,0 +1,61 @@
+## Basic Configuration
+baseurl = "https://dharma017.github.io/"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Dharma Raj Thapa"
+title = "Dharma Raj Thapa"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+# disqusShortname = "https-shenoybr-github-io-hugo-goa-demo" # Comment out to disable Disqus.
+# googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Dharma Raj Thapa"
+intro = "Senior Backend Developer"
+description = "Now [@UXCam](https://uxcam.com/). Previously [@Tulips Technologies](https://www.tulipstechnologies.com/) and [@Proshore](http://proshore.nl/). <br/> \"What is F times 5? It's Fleventy-five.\""
+authorimage = "profile.png"
+dateformat = "Jan 2, 2006"
+
+## Site Meta Settings
+[params.meta]
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "dharma017"
+instagram = "thapa.dharma017"
+linkedin = "dharmarajthapa"
+twitter = "dharma017"
+facebook = "dharma017"
+# google = "<username>"
+# stackoverflow = "<dharma017>"
+email = "thapa.dharma017@gmail.com"
+
+## Extras
+[params.extra]
+copyright = "© 2017. Dharma Raj Thapa. [Some Rights Reserved](http://creativecommons.org/licenses/by/3.0/)."
+poweredby = false
+highlightjs = true
+
+## Main Menu
+[[menu.main]]
+    name = "blog"
+    weight = 100
+    identifier = "blog"
+    url = "/blog/"
+[[menu.main]]
+    name = "about"
+    identifier = "about"
+    weight = 200
+    url = "https://www.linkedin.com/in/dharmarajthapa/"
