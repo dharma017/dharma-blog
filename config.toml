@@ -1,5 +1,5 @@
 ## Basic Configuration
-baseurl = "https://dharma017.github.io/"
+baseurl = "http://rdharma.com.np"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -53,9 +53,9 @@ highlightjs = true
     name = "blog"
     weight = 100
     identifier = "blog"
-    url = "/blog/"
+    url = "https://github.com/dharma017/til"
 [[menu.main]]
     name = "about"
     identifier = "about"
     weight = 200
-    url = "https://www.linkedin.com/in/dharmarajthapa/"
+    url = "https://www.linkedin.com/in/dharmarajthapa"
